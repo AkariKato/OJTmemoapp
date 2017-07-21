@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--メモリストテンプレ simple_list_2 を参考-->
+<TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:mode="twoLine"
+    android:paddingEnd="8dp"
+    android:paddingStart="8dp">
+
+    <!--タイトル-->
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorFont"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <!--本文-->
+    <TextView
+        android:id="@+id/text_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/text_body"
+        android:layout_alignLeft="@id/text_body"
+        android:layout_below="@id/text_title"
+        android:textColor="@color/colorFont"
+        android:padding="8dp"/>
+
+</TwoLineListItem>

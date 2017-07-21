@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="editactivity_title">Edit</string>>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add">add</string>
+    <string name="action_delete">del</string>
+
+    <string name="hint_title">買い物リスト</string>
+    <string name="hint_body">・卵\n・牛乳</string>
+
+    <string name="save_btn">save</string>
+    <string name="reset_btn">reset</string>
+    <string name="clear_btn">clear</string>
+
+    <string name="msg_destruction">メモを破棄しました。</string>
+
+</resources>
